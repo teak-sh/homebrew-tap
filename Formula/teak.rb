@@ -1,4 +1,4 @@
-# teak v0.4.0, built from commit b882ef699e2ad8da2dde97d10aac99602ba66b09.
+# teak v0.5.0, built from commit 3b24d7cc89fdcd0d5227123356dd0fcb6b5b2735.
 # mise run release:stage made this file (scripts/release/pack in teak's
 # repository); each release replaces it with its own.
 class Teak < Formula
@@ -9,20 +9,20 @@ class Teak < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/teak-sh/homebrew-tap/releases/download/v0.4.0/teak-v0.4.0-darwin-arm64.tar.gz"
-      sha256 "8eaecbb00314bf7460dfdeb2a5d2af18541ad041448c76c8978d5f023ed67cec"
+      url "https://github.com/teak-sh/homebrew-tap/releases/download/v0.5.0/teak-v0.5.0-darwin-arm64.tar.gz"
+      sha256 "633fe67227477f8954fad42eedc7e2f7fa2f27860d01e64a4f0fd65862dd51e8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/teak-sh/homebrew-tap/releases/download/v0.4.0/teak-v0.4.0-linux-amd64.tar.gz"
-      sha256 "656c545a96bbf31348176e889500af830c21f4ef1933a28824eafebcdd3d0fa2"
+      url "https://github.com/teak-sh/homebrew-tap/releases/download/v0.5.0/teak-v0.5.0-linux-amd64.tar.gz"
+      sha256 "bb246085c864c53136ceb94295be212893f9b59b58daefe3e5eb51754976c9c3"
     end
 
     on_arm do
-      url "https://github.com/teak-sh/homebrew-tap/releases/download/v0.4.0/teak-v0.4.0-linux-arm64.tar.gz"
-      sha256 "2253fa351d88df9952ee24505405b6e182209eff110e7d4101bfd3fe09ea3ce7"
+      url "https://github.com/teak-sh/homebrew-tap/releases/download/v0.5.0/teak-v0.5.0-linux-arm64.tar.gz"
+      sha256 "95a25e6e8dfd99b3c6161551a9852140acff1a16576e842eaa0c7e465431c092"
     end
   end
 
